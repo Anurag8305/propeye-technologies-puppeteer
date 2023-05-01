@@ -9,42 +9,30 @@
 
 <h2>🛠️ Installation Steps:</h2>
 
-<p>1. Clone the repo</p>
+<p>1. Clone the repository</p>
 
 ```
-git clone https://github.com/abhayfaldu/faded-kick-2555.git
+git clone https://github.com/Anurag8305/propeye-technologies-puppeteer.git
 ```
 
-<p>2. Install NPM packages</p>
+<p>2. Install NPM packages (dependencies)</p>
 
 ```
-npm install
+npm install or npm i
 ```
 
-<p>3. View on browser at localhost:3000</p>
+<p>3. To start web-scraping</p>
 
 ```
-npm start
+TYPE - npm start or node index.js in your terminal
 ```
-
-  
   
 <h2>💻 Tech Stack</h2>
 
 Technologies used in the project:
-
-*   HTML
-*   CSS
-*   React Js
-*   Redux
-*   React-redux
-*   Redux-thunk
-*   Chakra Ui
 *   Node
-*   Express
-*   MongoDB
 *   JavaScript
 
 <h2>Special Thanks 😊</h2>
 
-<p>Thanks Masai School for giving us this opportunity to show and deploy our skills to explore ideas and learn new things about project-making </p>
+<p>Special thanks to Propeye-Technologies for giving me this opportunity to show and deploy my skills and to explore ideas and learn new things about project-making.</p>
