@@ -5,13 +5,13 @@ puppeteer.use(StealthPlugin());
 
 // URL of the website which we want to scrape.
 const url = "https://in.indeed.com/";
-const main = async () => {
+const main = async (query) => {
 	const browser = await puppeteer.launch({ headless: false });
 	const page = await browser.newPage();
 	await page.goto(url);
 	await page.screenshot({ path: "bot.png", fullPage: true });
 	// query which we ant to pass. Here it is "Software Developer".It can be changed to Data Analytics or any other.
-	await page.type("#text-input-what", "Software Developer");
+	await page.type("#text-input-whaa", query);
 	//Clicks on the submit button on indeed.com
 	await page.click("[type=submit]");
 	await page.waitForTimeout(5000);
@@ -52,4 +52,5 @@ const main = async () => {
 	});
 };
 
-main();
+// Pass the query here such as the job-title which you want to scrape the data for.
+main("Software Developer");
