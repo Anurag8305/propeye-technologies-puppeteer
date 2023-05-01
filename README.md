@@ -31,13 +31,13 @@ The scraped data will be saved in the local system with data.json name. You can 
 
 ```
 
-<h2>💻 Tech Stack</h2>
+<💻 Tech Stack
 
 Technologies used in the project:
 *   Node
 *   JavaScript
 
-<h2>Special Thanks 😊</h2>
+Special Thanks 😊
 
-<p>Special thanks to Propeye-Technologies for giving me this opportunity to show and deploy my skills
-and to explore ideas and learn new things about project-making.</p>
+Special thanks to Propeye-Technologies for giving me this opportunity to show and deploy my skills
+and to explore ideas and learn new things about project-making.
