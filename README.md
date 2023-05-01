@@ -26,7 +26,11 @@ npm install or npm i
 ```
 TYPE - npm start or node index.js in your terminal
 ```
-  
+<p>4. To view the result</p>
+The scraped data will be saved in the local system with data.json name. You can see the data here.
+
+```
+
 <h2>💻 Tech Stack</h2>
 
 Technologies used in the project:
@@ -35,4 +39,5 @@ Technologies used in the project:
 
 <h2>Special Thanks 😊</h2>
 
-<p>Special thanks to Propeye-Technologies for giving me this opportunity to show and deploy my skills and to explore ideas and learn new things about project-making.</p>
+<p>Special thanks to Propeye-Technologies for giving me this opportunity to show and deploy my skills
+and to explore ideas and learn new things about project-making.</p>
