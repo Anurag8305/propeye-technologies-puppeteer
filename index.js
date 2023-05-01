@@ -11,7 +11,7 @@ const main = async (query) => {
 	await page.goto(url);
 	await page.screenshot({ path: "bot.png", fullPage: true });
 	// query which we ant to pass. Here it is "Software Developer".It can be changed to Data Analytics or any other.
-	await page.type("#text-input-whaa", query);
+	await page.type("#text-input-what", query);
 	//Clicks on the submit button on indeed.com
 	await page.click("[type=submit]");
 	await page.waitForTimeout(5000);
